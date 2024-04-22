@@ -10,12 +10,16 @@
 
 <style>
 	.flex {
-		background-color: #e9ecef;
+		margin-left: 50px;
+		margin-top: 50px;
+		background-color: rgb(24 24 27);
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 100vh;
+	}
+
+	p,
+	a {
+		color: #dad7cd;
 	}
 
 	div {
@@ -23,22 +27,28 @@
 		flex-direction: row;
 	}
 
-	ul{
+	ul {
 		display: flex;
 		flex-direction: row;
 		list-style-type: none;
 		padding: 0;
 	}
-	li{
+
+	li {
 		margin-right: 10px;
 		text-decoration: none;
 	}
-	a{
-		color: black;
+	footer{
+		color: #dad7cd;
+		position: absolute;
+		bottom: 25px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 </style>
 
 <body class="flex">
+	
 	<p>Hi, I'm Sahil.</p>
 	<p>
 		I am a proficient Golang and MERN stack developer, specializing in building robust backend systems that drive
@@ -58,6 +68,8 @@
 			<li><a href="https://www.linkedin.com/in/sahildhingraa/" rel="me">LinkedIn</a></li>
 		</ul>
 	</div>
+	<footer>
+		&lt;when backend developer do frontend /&gt;
+	</footer>
 </body>
-
 </html>
