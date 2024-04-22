@@ -1,90 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
 	<title>Sahil Dhingra</title>
-
-	<style>
-* {
-	font-size: 20px;
-}
-
-body {
-	font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
-	margin: 0 auto;
-	padding: 2rem;
-	max-width: 480px;
-}
-
-header {
-	margin: 2rem 0;
-}
-
-h1 {
-	display: none;
-}
-
-h2 {
-	margin-bottom: 0;
-}
-
-p {
-	margin-bottom: 2rem;
-}
-
-img {
-	border-radius: 50%;
-	display: block;
-	/* max-height: 100px; */
-	max-width: 135px;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-}
-
-li {
-	display: inline;
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background: hsl(0, 0%, 5%);
-		color: hsl(0, 0%, 90%);
-	}
-
-	h2 {
-		color: hsl(20, 16%, 66%);
-	}
-
-	a:link {
-		color: hsl(45, 100%, 50%);
-	}
-
-	a:visited {
-		color: hsl(120, 100%, 35%);
-	}
-}
-	</style>
 </head>
 
-<header>
-	<h1>Sahil Dhingra</h1>
-	<a href="//sahildhingra.me">
-		<img src="https://avatars.githubusercontent.com/u/92306979?v=4" alt="Profile picture">
-	</a>
-</header>
+<style>
+	.flex {
+		background-color: #e9ecef;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
 
-<p>Hi, I'm <a class="h-card">Sahil.</a>
-Welcome to my tiny home on the world wide web.</p>
+	div {
+		display: flex;
+		flex-direction: row;
+	}
 
-<h2>Location</h2>
-<p>Rajasthan, India</p>
+	ul{
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		padding: 0;
+	}
+	li{
+		margin-right: 10px;
+		text-decoration: none;
+	}
+	a{
+		color: black;
+	}
+</style>
 
-<h2>Contact</h2>
-<a href="mailto:dhingrasd452@gmail.com?subject=Hello Sahil!">dhingrasd452[at]gmail[dot]com</a>
-<h2>Elsewhere</h2>
-<ul>
-	<li><a href="https://github.com/SahilDhingraa" rel="me">GitHub</a></li>
-	<li><a href="https://www.linkedin.com/in/sahildhingraa/" rel="me">LinkedIn</a></li>
-	<li><a href="https://twitter.com/novoocaiine" rel="me">Twitter</a></li>
-</ul>
+<body class="flex">
+	<p>Hi, I'm Sahil.</p>
+	<p>
+		I am a proficient Golang and MERN stack developer, specializing in building robust backend systems that drive
+		dynamic,
+		high-performance applications.
+	</p>
+	<div>
+		<p>Location: &nbsp;</p>
+		<p>Rajasthan, India</p>
+	</div>
+	<p>Contact: &nbsp; <a href="mailto:dhingrasd452@gmail.com?subject=Hello Sahil!">dhingrasd451[at]gmail[dot]com</a>
+	</p>
+	<div>
+		<p>Elsewhere: &nbsp;</p>
+		<ul>
+			<li><a href="https://github.com/SahilDhingraa" rel="me">GitHub</a>,</li>
+			<li><a href="https://www.linkedin.com/in/sahildhingraa/" rel="me">LinkedIn</a></li>
+		</ul>
+	</div>
+</body>
+
+</html>
