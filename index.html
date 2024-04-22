@@ -1,75 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Sahil Dhingra</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="./favicon.ico" type="image/x-icon">
-	<title>Sahil Dhingra</title>
-</head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-<style>
-	.flex {
-		margin-left: 50px;
-		margin-top: 50px;
-		background-color: rgb(24 24 27);
-		display: flex;
-		flex-direction: column;
-	}
+    body {
+      font-family: monospace;
+      font-size: medium;
+      background-color: rgb(28, 28, 28);
+      color: #dad7cd;
+    }
 
-	p,
-	a {
-		color: #dad7cd;
-	}
+    a {
+      color: #dad7cd;
+    }
 
-	div {
-		display: flex;
-		flex-direction: row;
-	}
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding: 0;
+    }
 
-	ul {
-		display: flex;
-		flex-direction: row;
-		list-style-type: none;
-		padding: 0;
-	}
+    li {
+      margin-right: 10px;
+      text-decoration: none;
+    }
 
-	li {
-		margin-right: 10px;
-		text-decoration: none;
-	}
-	footer{
-		color: #dad7cd;
-		position: absolute;
-		bottom: 25px;
-		left: 50%;
-		transform: translateX(-50%);
-	}
-</style>
+    footer {
+      color: #dad7cd;
+      position: absolute;
+      bottom: 25px;
+			width: 100%;
+			text-align: center;
+    }
 
-<body class="flex">
-	
-	<p>Hi, I'm Sahil.</p>
-	<p>
-		I am a proficient Golang and MERN stack developer, specializing in building robust backend systems that drive
-		dynamic,
-		high-performance applications.
-	</p>
-	<div>
-		<p>Location: &nbsp;</p>
-		<p>Rajasthan, India</p>
-	</div>
-	<p>Contact: &nbsp; <a href="mailto:dhingrasd451@gmail.com?subject=Hello Sahil!">dhingrasd451[at]gmail[dot]com</a>
-	</p>
-	<div>
-		<p>Elsewhere: &nbsp;</p>
-		<ul>
-			<li><a href="https://github.com/SahilDhingraa" rel="me">GitHub</a>,</li>
-			<li><a href="https://www.linkedin.com/in/sahildhingraa/" rel="me">LinkedIn</a></li>
-		</ul>
-	</div>
-	<footer>
-		&lt;when backend developer does frontend /&gt;
-	</footer>
-</body>
+    #container {
+      width: 100%;
+      max-width: 35rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+			padding-left: 1rem;
+			padding-right: 1rem;
+    }
+
+    #location {
+      display: flex;
+      flex-direction: row;
+    }
+  </style>
+
+  <body class="flex">
+    <div id="container">
+      <h1>Hi, I'm Sahil.</h1>
+      <p style="font-size: larger">
+        I am a proficient Golang and MERN stack developer, specializing in
+        building robust backend systems that drive dynamic, high-performance
+        applications.
+      </p>
+      <div id="location">
+        <p>Location: &nbsp;</p>
+        <p>Rajasthan, India</p>
+      </div>
+      <p>
+        Contact: &nbsp;
+        <a href="mailto:dhingrasd451@gmail.com?subject=Hello Sahil!"
+          >dhingrasd451[at]gmail[dot]com</a
+        >
+      </p>
+      <div>
+        <p style="padding-bottom: 7px">Elsewhere: &nbsp;</p>
+        <ul>
+          <li>
+            <a href="https://github.com/SahilDhingraa" rel="me" target="_blank"
+              >GitHub</a
+            >,
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sahildhingraa/"
+              rel="me"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+			<i>
+				&lt; when backend developer does frontend /&gt;
+			</i>
+    </footer>
+  </body>
 </html>
