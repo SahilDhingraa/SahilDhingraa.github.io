@@ -49,7 +49,7 @@ export default function Footer() {
             href="https://x.com/sahildhingraa"
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">x</p>
+            <p className="ml-2 h-7">x (twitter)</p>
           </a>
         </li>
         <li>
